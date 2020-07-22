@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-react-import",
+  "version": "0.0.3",
+  "description": "A babel plugin for import precisely in react.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "pearls-tools build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinBirkhoff/babel-plugin-react-import.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "import"
+  ],
+  "author": "Gavin Birkhoff <gavinbirkhoff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavinBirkhoff/babel-plugin-react-import/issues"
+  },
+  "homepage": "https://github.com/GavinBirkhoff/babel-plugin-react-import#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "pearls-tools": "0.0.3",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.10.4"
+  }
+}
